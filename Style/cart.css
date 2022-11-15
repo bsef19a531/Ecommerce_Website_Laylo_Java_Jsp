@@ -1,0 +1,35 @@
+#table-out
+{
+    margin: 0px;
+}
+.table #table-head
+{
+    padding: 10px;
+    font-size: 1.4em;
+}
+
+.table #table-head tr td
+{
+    font-size: 2em;
+    font-weight: 800;
+}
+
+.table-content
+{
+    font-size: 1.2em;
+    font-weight: 600;
+}
+
+.table-content-final
+{
+    background: #B035D9;
+    color: black;
+    
+}
+
+#form_bg
+{
+    background: #f7e0ff;
+    border-radius: 20px;
+    padding: 20px 15px;
+}

@@ -1,0 +1,233 @@
+#body_div{
+    margin: 80px 10px 10px 10px;
+    background-color: black;
+    background: url("../Images/Backgrounds/signup_street_bg.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#form-div
+{
+    padding: 30px;
+    background: white;
+    margin-top: 30px;
+    box-shadow: #B035D9 0px 0px 30px 10px ;
+    border-radius: 10px;
+    border: 2px solid #A650F5;
+}
+
+#form-div h1 img
+{
+    height: 80px;
+    display: inline;
+}
+label
+{
+    text-align: left;   
+    font-weight: 750;
+    color: #B035D9;
+    margin: 10px;
+}
+
+.input-fields
+{
+    width: 90%;
+    height: 40px;
+    margin: 10px;
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style: groove;
+    border-bottom: 3px solid #B035D9 ;
+    background-color: #ffffff;
+    display: block;
+}
+
+.input-fields:focus
+{
+    outline: none;
+    border-bottom: 3px solid black;
+}
+
+.error_input
+{
+    font-size: 15px;
+    font-weight: 700;
+    color: red;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 20px;
+}
+
+#signup-btn
+{
+    background: #df7dff;
+    color: black;
+    font-weight: 600;
+    border: none;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 30px;
+    width: 100px;
+    height: 60px;
+    font-weight: 700;
+}
+
+#signup-btn:hover, #signup-btn:focus 
+{
+    background: #B035D9;
+    color: white;
+}
+
+
+#forget_link
+{
+    color:#B035D9;
+    text-decoration: none;
+    font-weight: 700;
+    margin: 0px 10px 20px 0px;
+}
+
+#forget_para
+{
+    color:#B035D9;
+    font-weight: 500;
+    margin: 30px 10px 10px 10px;
+}
+
+
+
+/*BODY 
+#body_div{
+        background-color: black;
+        background: url("../Images/login_background_v1.jpg") no-repeat center center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+}
+*/
+/*LOGIN FOrm 
+
+#main
+{
+    
+    margin: 10% 0px 10% 0px;
+    background: white;
+    padding: 10px 20px 10px 20px; 
+    box-shadow: #4d91ff 0px 0px 30px 10px ;
+    border-radius: 10px;
+    border: 2px solid #005df3;
+}
+#main label
+{
+    text-align: left;
+    margin-left: 10px;
+}
+#main h1
+{
+    margin: 20px 0px 20px 0px;
+    text-align: center;
+}
+
+#main .input_fields
+{
+    padding: 10px;
+    margin: 10px;
+    height: 40px;
+    width: 70%;
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style: groove;
+    background-color: #ffffff;
+    display: block;
+}
+
+#main .input_fields:focus, #main .input_fields:active
+{
+    background-color: #c6dcff;
+    outline: none;
+    border-bottom: 2px solid #005df3;
+}
+
+#main .input_radio
+{   
+    width: 15px;
+    height: 15px;
+    margin: 10px;
+}
+
+#main select
+{
+    height: 40px;
+    margin: 20px;
+}
+
+#main select:hover, #main select:focus
+{
+    background: #005df3;
+    color: white;
+}
+#main #age
+{
+    margin: 20px;
+    
+}
+
+#main #age:hover
+{
+    background: #005df3;
+    color: white;
+    font-weight: bold;
+    
+}
+
+#main #age:focus
+{
+    outline: none;
+}
+
+#main #sign_button
+{
+    display: block; 
+    margin: 40px auto;
+    border: None;
+    height: 40px;
+    width: 100px;
+    border-radius: 20px;
+    background: #005df3;
+    color: white;
+
+}
+
+#main #sign_button:focus, #main #sign_button:active, #main #sign_button:hover  
+{
+    
+    
+    background: white;
+    color: #005df3;
+    border:#005df3 2px solid ;
+    box-shadow: #005df3 0px 0px  4px;
+}
+
+#main p
+{
+    text-align: right;
+    margin-right: 10px;
+    
+}
+
+#main p a
+{
+    font-weight: bold;
+}
+
+ #main p a:hover
+{
+    text-decoration: none;
+    color: #005df3;
+}
+*/

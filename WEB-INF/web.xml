@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<web-app>
+	
+	
+	<welcome-file-list>
+		<welcome-file>
+			index.jsp
+		</welcome-file>
+		<welcome-file>
+			login.jsp
+		</welcome-file>
+		<welcome-file>
+			signup.jsp
+		</welcome-file>
+	</welcome-file-list>
+	
+	<servlet>
+		<servlet-name>SignForm</servlet-name>
+		<servlet-class>Signup</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>SignForm</servlet-name>
+		<url-pattern>/sign</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>LoginForm</servlet-name>
+		<servlet-class>Login</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>LoginForm</servlet-name>
+		<url-pattern>/log</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>Logout</servlet-name>
+		<servlet-class>Logout</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>Logout</servlet-name>
+		<url-pattern>/Logout</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>Forget</servlet-name>
+		<servlet-class>Forget</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>Forget</servlet-name>
+		<url-pattern>/frgt</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>ChangePassword</servlet-name>
+		<servlet-class>passwordChange</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>ChangePassword</servlet-name>
+		<url-pattern>/pswd</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>redirectPassword</servlet-name>
+		<servlet-class>redirectChangePassword</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>redirectPassword</servlet-name>
+		<url-pattern>/rcp</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>addServlet</servlet-name>
+		<servlet-class>AddServlet</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>addServlet</servlet-name>
+		<url-pattern>/add</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>checkout</servlet-name>
+		<servlet-class>Checkout</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>checkout</servlet-name>
+		<url-pattern>/check</url-pattern>
+	</servlet-mapping>
+	
+	<context-param>
+    	<param-name>DataBaseAddress</param-name>
+    	<param-value>jdbc:mysql://127.0.0.1/ecommerce</param-value>
+	</context-param>
+	
+	<context-param>
+    	<param-name>DataBaseDriver</param-name>
+    	<param-value>com.mysql.jdbc.Driver</param-value>
+	</context-param>
+	
+	
+	<session-config>
+		<session-timeout>
+			30
+		</session-timeout>
+	</session-config>
+	
+	<configuration>
+		<system.webServer>
+			<caching enabled="false" enableKernelCache="false" />
+		</system.webServer>
+	</configuration>
+	
+
+</web-app>

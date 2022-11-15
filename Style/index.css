@@ -1,0 +1,151 @@
+.col-md-3
+{
+    padding: 5px 5px;
+}
+.card_boundary
+{
+    border: #A650F5 1px solid;
+}
+.img_card
+{
+    height: 200px;
+    max-width: 100%;
+    width: auto;
+    padding: 10px;
+}
+
+.title_card
+{
+    text-align: center;
+    color: #B035D9;
+}
+
+.desc_card
+{
+    padding: 10px;
+}
+
+.footer_card
+{
+    background: rgb(228, 228, 228);
+    padding: 10px;
+}
+
+.cart_btn
+{
+    text-decoration: none;
+    color: white;
+    background: #B035D9;
+    padding: 10px;
+    float: right;
+    margin: 5px 0px;
+}
+
+#price_box
+{
+    padding: 10px;
+    margin: 5px 0px;
+    border: 1px solid #A650F5;
+    cursor: default;
+}
+
+table
+{
+    display: inline;
+    font-size: 0.9em;
+    cursor: default;
+}
+
+.modal-header
+{
+    background-color: #B035D9;
+    color: white;
+}
+
+table
+{
+    width: 100%;
+}
+
+#table-head
+{
+    background-color: #B035D9;
+    color: white;
+}
+#table-head tr th
+{
+    border: 1px solid #A650F5;
+}
+
+.table tr td
+{
+    border: 1px solid #A650F5;
+    text-align: center;
+}
+
+.cancel-btn
+{
+    background: #df7dff;
+    color: black;
+    font-weight: 600;
+    border: none;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 30px;
+    width: 100px;
+    height: 60px;
+    font-weight: 700;
+}
+
+.cancel-btn:hover, .cancel-btn:focus 
+{
+    background: #B035D9;
+    color: white;
+}
+
+
+/*Snack Bar Code*/
+#snackbar {
+    visibility: hidden;
+    min-width: 250px;
+    font-weight: 450;
+    margin-left: -125px;
+    /*background-color: #333;*/
+    background: #B035D9;
+    color: #fff;
+    text-align: center;
+    border-radius: 2px;
+    padding: 16px;
+    position: fixed;
+    z-index: 1;
+    left: 50%;
+    bottom: 30px;
+    font-size: 17px;
+  }
+#snackbar.show {
+    visibility: visible;
+    -webkit-animation: fadein 0.5s, fadeout 0.5s 2.5s;
+    animation: fadein 0.5s, fadeout 0.5s 2.5s;
+  }
+  
+  @-webkit-keyframes fadein {
+    from {bottom: 0; opacity: 0;} 
+    to {bottom: 30px; opacity: 1;}
+  }
+  
+  @keyframes fadein {
+    from {bottom: 0; opacity: 0;}
+    to {bottom: 30px; opacity: 1;}
+  }
+  
+  @-webkit-keyframes fadeout {
+    from {bottom: 30px; opacity: 1;} 
+    to {bottom: 0; opacity: 0;}
+  }
+  
+  @keyframes fadeout {
+    from {bottom: 30px; opacity: 1;}
+    to {bottom: 0; opacity: 0;}
+  }
+
+  /*Snack Bar Code*/
